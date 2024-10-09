@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(dollars.jpg);
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.app {
+    max-width: 600px;
+    margin: auto;
+    background: lightgreen;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    display: flex;
+    align-items: center;
+    color: green;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: green;
+    color: lightgreen;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(56, 56, 224);
+}
+
+#summary-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#summary-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
