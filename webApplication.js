@@ -5,6 +5,10 @@ const expenseCategoryInput = document.getElementById('category');
 const expenseSummaryList = document.getElementById('summary-list');
 const totalAmount = document.getElementById('total-amount');
 
+const header = document.getElementById('header')
+
+header.style.alignItems = 'center';
+
 let totalExpenses = 0;
 
 expenseForm.addEventListener('submit', function(e) {
@@ -28,6 +32,5 @@ expenseForm.addEventListener('submit', function(e) {
     expenseNameInput.value = '';
     expenseAmountInput.value = '';
     expenseCategoryInput.value = '';
-    
-
 })
+
